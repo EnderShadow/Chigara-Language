@@ -1,0 +1,18 @@
+class Variables
+{
+	public void main(String[] args)
+	{
+		String str = getString();
+		printString(str);
+	}
+	
+	public void printString(String str)
+	{
+		System.println(str);
+	}
+	
+	public String getString()
+	{
+		return "Joe";
+	}
+}

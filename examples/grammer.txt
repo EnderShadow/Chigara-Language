@@ -1,0 +1,33 @@
+<visibility>:
+public, private, or protected
+
+<attributes>:
+final
+	
+<identifier>:
+first character must be a letter and all subsequent characters may be letters or numbers
+
+<type>:
+an identifier that corresponds to either a primitive or object
+
+<value>:
+an identifier corresponding to a variable, a literal, or newly constructed object
+
+Class Declaration
+`[<attributes> ]class <identifier>[ extends <identifier = name>][ implements <identifier = name>...]`
+
+Method Declaration
+`<visibility> [<attributes> ]<type> <identifier = name>([<type> <identifier = name>...])`
+
+Method Invocation
+`<identifier = name>([<value>...]);`
+
+Variable Declaration
+`<visibility> [<attributes> ]<type> <identifier = name>[ = <value>];`
+
+Variable Assignment
+`<identifier = name> = <value>;`
+
+
+
+
